@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <?php require "blocks/header.php" ?>
+    <?php require "header.php" ?>
 
     <div class="container mt-3 ml-15">
         <h3 class="mb-5">Недвижимость</h3>
@@ -69,6 +69,6 @@
 
         </div>
     </div>
-    <?php require "blocks/footer.php" ?>
+    <?php require "footer.php" ?>
 </body>
 </html>

@@ -5,13 +5,7 @@
         <a class="p-2 text-dark" href="http://localhost:63342/Web/index.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Главная</font></font></a>
         <a class="p-2 text-dark" href="http://localhost:63342/Web/about.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Контакты</font></font></a>
     </nav>
-    <?php
-        if($_COOKIE['user'] == 'Да'):
-    ?>
-    <a class="btn btn-outline-primary" href="auth.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кабинет пользователя</font></font></a>
-    <?php
-        else:
-    ?>
-    <a class="btn btn-outline-primary" href="auth.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Войти</font></font></a>
-    <?php endif; ?>
+
+    <a class="btn btn-outline-primary" href="registration.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Войти</font></font></a>
+
 </div>

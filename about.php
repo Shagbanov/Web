@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
+    <?php require "header.php" ?>
     <div class="container mt-5">
         <h3>Контактная форма</h3>
         <form action="check.php" method="post">
@@ -19,6 +19,6 @@
             <button class="btn btn-success" type="submit" name="send">Отправить</button>
         </form>
     </div>
-
+    <?php require "footer.php" ?>
 </body>
 </html>

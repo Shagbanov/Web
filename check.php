@@ -14,4 +14,6 @@ if ($error != '') {
 
 
 header('Location: about.php');
+
+
 ?>
